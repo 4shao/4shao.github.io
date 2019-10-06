@@ -11,17 +11,19 @@
     <link rel="stylesheet" href="divCenter.css" type="text/css" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-9982358679079147", enable_page_level_ads: true }); </script>
     <style type="text/css">
-      .parent{
-      width: 800px;
-      height: 800px;
-      position: relative;
-      }
-      .children{
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      }
+.parent{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+}
+.children{
+    display: inline;
+    vertical-align: middle;
+    border: 1px solid rebeccapurple;
+}
     </style>
     </head>
 <body>
